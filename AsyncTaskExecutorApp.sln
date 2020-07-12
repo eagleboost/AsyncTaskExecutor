@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncTaskExecutorApp", "AsyncTaskExecutorApp\AsyncTaskExecutorApp.csproj", "{71BAC26D-2211-4DAC-830B-6383AC4116C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncTaskExecutor", "AsyncTaskExecutor\AsyncTaskExecutor.csproj", "{2B8BC0AB-7AF4-4D67-8AF2-5EC9C884BF9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncTaskExecutor.Tests", "AsyncTaskExecutor.Tests\AsyncTaskExecutor.Tests.csproj", "{61962AB1-6A6F-4887-8740-A373A99E0DCB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71BAC26D-2211-4DAC-830B-6383AC4116C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71BAC26D-2211-4DAC-830B-6383AC4116C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71BAC26D-2211-4DAC-830B-6383AC4116C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71BAC26D-2211-4DAC-830B-6383AC4116C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B8BC0AB-7AF4-4D67-8AF2-5EC9C884BF9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B8BC0AB-7AF4-4D67-8AF2-5EC9C884BF9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B8BC0AB-7AF4-4D67-8AF2-5EC9C884BF9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B8BC0AB-7AF4-4D67-8AF2-5EC9C884BF9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61962AB1-6A6F-4887-8740-A373A99E0DCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61962AB1-6A6F-4887-8740-A373A99E0DCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61962AB1-6A6F-4887-8740-A373A99E0DCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61962AB1-6A6F-4887-8740-A373A99E0DCB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

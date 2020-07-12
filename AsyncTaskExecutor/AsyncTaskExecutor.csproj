@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <UseWPF>true</UseWPF>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Remove="Resources\cancel.png" />
+      <None Remove="Resources\pause.png" />
+      <None Remove="Resources\resume.png" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.19" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="Tasks\AsyncTaskExecutor.Contracts.cs">
+        <DependentUpon>AsyncTaskExecutor.cs</DependentUpon>
+      </Compile>
+      <Compile Update="Tasks\AsyncTaskExecutor.Void.cs">
+        <DependentUpon>AsyncTaskExecutor.cs</DependentUpon>
+      </Compile>
+      <Compile Update="Tasks\AsyncTaskExecutor.ExecutionOption.cs">
+        <DependentUpon>AsyncTaskExecutor.cs</DependentUpon>
+      </Compile>
+      <Compile Update="Tasks\AsyncTaskExecutor.ExecutionStatus.cs">
+        <DependentUpon>AsyncTaskExecutor.cs</DependentUpon>
+      </Compile>
+      <Compile Update="Controls\AsyncTaskUi.Impl.cs">
+        <DependentUpon>AsyncTaskUi.cs</DependentUpon>
+      </Compile>
+      <Compile Update="Tasks\AsyncTaskExecutor.EventArgs.cs">
+        <DependentUpon>AsyncTaskExecutor.cs</DependentUpon>
+      </Compile>
+      <Compile Update="Tasks\AsyncTaskComponent.Contracts.cs">
+        <DependentUpon>AsyncTaskComponent.cs</DependentUpon>
+      </Compile>
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <UseWPF>true</UseWPF>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\AsyncTaskExecutor\AsyncTaskExecutor.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Resource Include="Resources\cancel.png" />
+      <Resource Include="Resources\pause.png" />
+      <Resource Include="Resources\resume.png" />
+    </ItemGroup>
+
+</Project>
